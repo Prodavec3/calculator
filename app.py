@@ -134,7 +134,7 @@ def main():
         
         surface_type = st.selectbox(
             "Тип поверхности",
-            ["Стены", "Потолок", "Пол", "Остекление", "Двери", "Стулья"]
+            ["Стены", "Потолок", "Пол", "Остекление", "Двери", "Стулья", "Пусто"]
         )
 
         MATERIALS_DATABASE = load_materials("data/materials.json")
